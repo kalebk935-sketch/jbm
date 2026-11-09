@@ -1,0 +1,50 @@
+{
+  "invitations": [
+    {
+      "id": "jean-marie",
+      "guestOne": "Monsieur Jean",
+      "guestTwo": "Madame Marie",
+      "groom": "Gabriel Laurent",
+      "bride": "Éléonore de Valois",
+      "coupleDescription": "Depuis leur première rencontre au bord de la mer, Gabriel et Éléonore écrivent à deux une histoire faite de douceur, de curiosité et de joie. Ils seraient heureux de vous avoir près d’eux pour en célébrer un nouveau chapitre.",
+      "venueName": "Le Domaine des Ormes",
+      "venueDescription": "Une demeure de pierre au cœur d’un parc centenaire, où jardins et salons s’ouvrent sur la lumière de l’été.",
+      "venueAddress": "18, chemin des Ormes\n78000 Versailles, France",
+      "mapAddress": "18 chemin des Ormes, 78000 Versailles, France",
+      "weddingDate": "Samedi 19 juin 2027",
+      "weddingTime": "11 h 00",
+      "table": "08",
+      "program": [
+        { "time": "10 h 00", "title": "Accueil des invités", "detail": "Un verre de bienvenue au jardin" },
+        { "time": "11 h 00", "title": "Cérémonie de mariage", "detail": "Dans la grande galerie" },
+        { "time": "13 h 00", "title": "Séance photo", "detail": "Au détour des jardins" },
+        { "time": "14 h 00", "title": "Réception", "detail": "Cocktail et douceurs" },
+        { "time": "16 h 00", "title": "Repas", "detail": "À la table des Ormes" },
+        { "time": "18 h 00", "title": "Soirée dansante", "detail": "Jusqu’au bout de la nuit" }
+      ]
+    },
+    {
+      "id": "david-sarah",
+      "guestOne": "Monsieur David",
+      "guestTwo": "Madame Sarah",
+      "groom": "Gabriel Laurent",
+      "bride": "Éléonore de Valois",
+      "coupleDescription": "Une rencontre inattendue, des voyages qui les ont rapprochés et mille raisons de rire : Gabriel et Éléonore célèbrent leur histoire et espèrent vous compter parmi leurs invités.",
+      "venueName": "Le Domaine des Ormes",
+      "venueDescription": "Une demeure de pierre au cœur d’un parc centenaire, où jardins et salons s’ouvrent sur la lumière de l’été.",
+      "venueAddress": "18, chemin des Ormes\n78000 Versailles, France",
+      "mapAddress": "18 chemin des Ormes, 78000 Versailles, France",
+      "weddingDate": "Samedi 19 juin 2027",
+      "weddingTime": "11 h 00",
+      "table": "12",
+      "program": [
+        { "time": "10 h 00", "title": "Accueil des invités", "detail": "Un verre de bienvenue au jardin" },
+        { "time": "11 h 00", "title": "Cérémonie de mariage", "detail": "Dans la grande galerie" },
+        { "time": "13 h 00", "title": "Séance photo", "detail": "Au détour des jardins" },
+        { "time": "14 h 00", "title": "Réception", "detail": "Cocktail et douceurs" },
+        { "time": "16 h 00", "title": "Repas", "detail": "À la table des Ormes" },
+        { "time": "18 h 00", "title": "Soirée dansante", "detail": "Jusqu’au bout de la nuit" }
+      ]
+    }
+  ]
+}
