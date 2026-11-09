@@ -10,11 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../CSS/style.css">
-  <script type="module" src="../Script/main.js"></script>
 </head>
-<body data-page="index">
+<body>
   <header class="site-header index-header">
-    <a class="wordmark" href="/HTML/index.html" aria-label="INVITIA, accueil">INVITIA<span class="wordmark-dot">.</span></a>
+    <a class="wordmark" href="index.html" aria-label="INVITIA, accueil">INVITIA<span class="wordmark-dot">.</span></a>
     <span class="header-note">L’art de célébrer</span>
   </header>
 
@@ -22,7 +21,7 @@
     <section class="index-intro">
       <p class="eyebrow">INVITATIONS NUMÉRIQUES · ÉDITION MARIAGE</p>
       <h1>Un jour précieux,<br><em>une entrée à part.</em></h1>
-      <p class="intro-copy">Chaque célébration commence par une attention. Choisissez votre invitation pour découvrir le lieu, le programme et la place qui vous attend.</p>
+      <p class="intro-copy">Chaque célébration commence par une attention. Découvrez le lieu, le programme de la journée et la place qui vous attend.</p>
       <div class="intro-rule" aria-hidden="true"><span></span></div>
     </section>
     <section class="invitation-directory" aria-labelledby="directory-title">
@@ -30,11 +29,23 @@
         <p class="eyebrow">VOTRE INVITATION</p>
         <h2 id="directory-title">Les célébrations</h2>
       </div>
-      <div class="invitation-list" data-invitation-list aria-live="polite">
-        <p class="loading-message">Les invitations arrivent…</p>
+      <div class="invitation-list">
+        <a class="invitation-card" href="invitation-jean-marie.html">
+          <span class="eyebrow">SAMEDI 19 JUIN 2027</span>
+          <span class="directory-couple">Gabriel Laurent &amp; Éléonore de Valois</span>
+          <span class="directory-guests">Pour Monsieur Jean et Madame Marie</span>
+          <span class="directory-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="invitation-card" href="invitation-david-sarah.html">
+          <span class="eyebrow">SAMEDI 19 JUIN 2027</span>
+          <span class="directory-couple">Gabriel Laurent &amp; Éléonore de Valois</span>
+          <span class="directory-guests">Pour Monsieur David et Madame Sarah</span>
+          <span class="directory-arrow" aria-hidden="true">↗</span>
+        </a>
       </div>
     </section>
   </main>
   <footer class="site-footer index-footer"><span>INVITIA</span><span>Un souvenir commence ici</span></footer>
+  <script src="../Script/animations.js" defer></script>
 </body>
 </html>
