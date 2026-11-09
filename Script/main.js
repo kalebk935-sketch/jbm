@@ -59,7 +59,7 @@ function renderInvitation(invitation) {
 function createInvitationLink(invitation) {
   const link = document.createElement('a');
   link.className = 'invitation-card';
-  link.href = `invitation.html?id=${encodeURIComponent(invitation.id)}`;
+  link.href = `/HTML/invitation.html?id=${encodeURIComponent(invitation.id)}`;
 
   const eyebrow = document.createElement('span');
   eyebrow.className = 'eyebrow';

@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/HTML/index.html"
+      "destination": "/HTML/invitation.html?id=jean-marie"
     }
   ]
 }
